@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/Coding" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c40b2dc9-0116-45da-a9e2-dabc92a9f976" name="Default Changelist" comment="Add" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="Coding" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="21fNA1wVBxYsNHuZPHp1tkXI3N3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c40b2dc9-0116-45da-a9e2-dabc92a9f976" name="Default Changelist" comment="" />
+      <created>1638328037210</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638328037210</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add">
+      <created>1642027573993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642027573993</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Coding" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="465" y="196" key="FileChooserDialogImpl" timestamp="1642026810891">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="465" y="196" key="FileChooserDialogImpl/0.0.1368.882@0.0.1368.882" timestamp="1642026810891" />
+    <state x="508" y="361" key="Github.CreateGistDialog" timestamp="1642027121224">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="508" y="361" key="Github.CreateGistDialog/0.0.1368.882@0.0.1368.882" timestamp="1642027121224" />
+    <state x="186" y="86" key="SettingsEditor" timestamp="1642027431154">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="186" y="86" key="SettingsEditor/0.0.1368.882@0.0.1368.882" timestamp="1642027431154" />
+    <state x="277" y="174" key="Vcs.Push.Dialog.v2" timestamp="1642028127552">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="277" y="174" key="Vcs.Push.Dialog.v2/0.0.1368.882@0.0.1368.882" timestamp="1642028127552" />
+    <state x="463" y="154" key="git4idea.branch.GitSmartOperationDialog" timestamp="1642027461925">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="463" y="154" key="git4idea.branch.GitSmartOperationDialog/0.0.1368.882@0.0.1368.882" timestamp="1642027461925" />
+    <state x="487" y="348" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1642028017539">
+      <screen x="0" y="0" width="1368" height="882" />
+    </state>
+    <state x="487" y="348" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1368.882@0.0.1368.882" timestamp="1642028017539" />
+  </component>
+</project>
