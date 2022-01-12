@@ -1,5 +1,6 @@
 # Environment-System
-Database Centric Web Application with Django
+The coursework project: Database Centric Web Application with Django.
+PS: The coding part is in the 'Coding' branch.
 
 ## Introduction
 ### Project Summary
