@@ -1,4 +1,4 @@
-## setup
+## Setup
 
 - install `mysqlclient` python library
     - run `pip install mysqlclient`
@@ -33,7 +33,7 @@ delimiter ;
 
 ## Stored Procedure
 
-following stored procedure will return the most searched weather type and location and searched times in this month, it will also return number of user that searched same weather type or location as that of current user, besides, it will return one of those users as a friend recommendation to current user.
+Following stored procedure will return the most searched weather type and location and searched times in this month, it will also return number of user that searched same weather type or location as that of current user, besides, it will return one of those users as a friend recommendation to current user.
 ```
 delimiter //
 CREATE PROCEDURE hotevent (IN user_id INT)
