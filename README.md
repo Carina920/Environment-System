@@ -1,5 +1,5 @@
 # Environment-System
-The coursework project: Database Centric Web Application with Django.
+Coursework project at UIUC (CS 411): collaborated with other two teammates on developing the Database Centric Web Application with Django.
 
 PS: The coding part is in the 'Coding' branch.
 
