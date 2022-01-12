@@ -1,0 +1,23 @@
+{% load static %}
+
+<style>
+    #header {
+        margin: 20px 0;
+        border: 2px solid rgb(75, 107, 248);
+        clear: both; 
+    }
+</style>
+
+<div style='padding: 20px; display : block;'>
+    <div style = "position:absolute; left:20px; top:2px;">
+        <a href='/'>
+            <img src="{% static 'base/images/logo.png' %}" alt="Home" width="40" height="60">
+        </a>
+    </div>
+    <div style = "position:absolute; right:20px; top:2px;">
+        <a href='{% url "searchhistory" %}'>search history</a>
+        <a href='{% url "profile" %}'>profile</a>
+        <a href='{% url "logout" %}'>logout</a>
+    </div>
+</div>
+<hr id='header'>
