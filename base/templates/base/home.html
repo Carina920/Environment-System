@@ -1,0 +1,67 @@
+{% extends 'generics.html' %}
+
+{% block content %}
+<style>
+    .home-main-content {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+</style>
+
+{% if request.user.userprofile.name == '' or request.user.userprofile.name is None %}
+<h1>Welcome come back</h1>
+{% else %}
+<h1>Welcome come back, {{request.user.userprofile.name}} </h1>
+{% endif %}
+<hr>
+
+<div class='home-main-content'>
+    <div>
+        <h3>Most Recent Weather Event</h3>
+        <!-- table goes here -->
+        {% if events %}
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Location</th>
+                    <th>Weather Type</th>
+                    <th>Severity</th>
+                </tr>
+                {% for event in events %}
+                <tr> 
+                    <td>{{ event.eventdate }}</td>
+                    <td>{{ event.locationid }}</td>
+                    <td>{{ event.weathertypeid }}</td>
+                    <td>{{ event.severity }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        {% else %}
+            <p>No events are available yet.</p>
+        {% endif %}
+    </div>
+
+    <div>
+        <div>
+            <h3>
+                Selection Search
+            </h3>
+            <form method="POST">
+                {% csrf_token %}
+                {{ searchForm.as_p }}
+                <button type="submit" name='search' value='new'>Search</button>
+                <button type="submit" name='search' value='clean'>Clean</button>
+            </form>
+            <hr>
+            <h3>
+                Vague Search
+            </h3>
+            <p>(Doesn't support search Date)</p>
+            <form method="POST">
+                {% csrf_token %}
+                <input type="text" name='vaguesearch' placeholder="Search.."/>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

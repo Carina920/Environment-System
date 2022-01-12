@@ -1,0 +1,74 @@
+{% extends 'generics.html' %}
+
+{% block content %}
+
+<style>
+    .main-content {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+</style>
+
+<div class='main-content'>
+    <div>
+        <h3>Your Most Recent Search History</h3>
+        {% if history %}
+            <table>
+                <tr>
+                    <th>History ID</th>
+                    <th>Searched Date</th>
+                    <th>Event Date</th>
+                    <th>Location</th>
+                    <th>Weather Type</th>
+                    <th>Severity</th>
+                </tr>
+                {% for h in history %}
+                <tr> 
+                    <td>{{ h.id }}</td>
+                    <td>{{ h.searcheddate }}</td>
+                    <td>{{ h.eventdate }}</td>
+                    <td>{{ h.location }}</td>
+                    <td>{{ h.weathertype }}</td>
+                    <td>{{ h.severity }}</td>
+                </tr>
+                {% endfor %}
+            </table>
+        {% else %}
+            <p>No search history!</p>
+        {% endif %}
+    </div>
+
+    <div>
+        <div>
+            <h3>
+                Delete
+            </h3>
+            <p>Input the id of history record you want to be deleted.</p>
+            {% if messages %}
+            <ul class="messages">
+                {% for message in messages %}
+                <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            <form method="POST">
+                {% csrf_token %}
+                <input type="number" name='to_delete_id'>
+                <button type="submit">Delete</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<hr>
+<div>
+    <h3>Popular Search In This Month</h3>
+    {% if history %}
+        <p>Most searched Weather Type is {{hotSearchInThisMonth.hotsearchedweather}}, it had been searched for {{hotSearchInThisMonth.hotsearchedweathersearchedtimes}} times.</p>
+        <p>Most searched Location is {{hotSearchInThisMonth.hotsearchedcity}}, {{hotSearchInThisMonth.hotsearchedstate}}, it had been searched for {{hotSearchInThisMonth.hotsearchedlocationsearchedtimes}} times.</p>
+        <p>There are {{hotSearchInThisMonth.numofuserhassimilarsearchhistory}} users have similar search history as that of you, one of they is {{hotSearchInThisMonth.userwithsimilarsearchhistory}}</p>
+    {% else %}
+        <p>No enough data to display!</p>
+    {% endif %}
+</div>
+{% endblock content %}

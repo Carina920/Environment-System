@@ -1,0 +1,25 @@
+{% extends 'generics.html' %}
+
+{% block content %}
+
+<h1>Profile</h1>
+<p>
+    <label>User ID: {{request.user.id}}</label><br>
+    <label>Username: {{request.user.userprofile.userid}}</label>
+</p>
+<form method="POST">
+    {% csrf_token %}
+    {{profileForm.as_p}}
+    <button type="submit">Update</button>
+</form>
+<hr>
+
+<div>
+    <h3>Weather Summary</h3>
+    {% if not summary %}
+    <p>Please select a loction in your profile first</p>
+    {% else %}
+    <p>{{ summary }}</p>
+    {% endif %}
+</div>
+{% endblock content %}
