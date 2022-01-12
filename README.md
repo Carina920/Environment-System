@@ -36,3 +36,33 @@ For registered users:
 3. See the most populate searching history.
 4. See the recommended information based on their profiles.
 
+### Basic Functions of Web Application
+Search. Users will have the ability to search environmental data based on location and time.
+Log in. Users will have the ability to create their own accounts and user profile. 
+
+### Creative Component
+Friend Recommendation. The system will recommend current user to another user that have similar search history. The similarity is determined by if the most popular weather event type or location searched by two users are the same, if so, the system will recommend them to each other.
+
+### Advanced Database Program
+For this project we decided to use a stored procedure and trigger approach. 
+
+We decided to implement a stored procedure to help our recommendation engine as well as search trend by all users. Our stored procedure parses the history of user searches, calculates the weather types they search most often, the locations they search most often, and so on. In addition, the stored procedure then stores this data in the user preference table. Our front end can provide users with the most searched weather types of the month, the most searched locations of the month, and so on. Stored procedures allow us to calculate important information in the database itself.
+
+### Dataflow
+When user visits our website, it requires a login to continue.
+![image](https://user-images.githubusercontent.com/59858652/149225075-0a77e478-67ae-4de9-b092-0b6c34f1310c.png)
+
+After user log in, the home page will display, which include the most recent weather event
+![image](https://user-images.githubusercontent.com/59858652/149225115-4512ea14-b991-454c-af09-5d53a7db7e0a.png)
+
+In the home page, user can search the weather event by selecting options from the dropdown or by type key words in "Vague Search" section.
+![image](https://user-images.githubusercontent.com/59858652/149225150-0654af22-1230-431c-859b-749425c46a1a.png)
+
+In the search history page, user can delete any of the history by id. User can also see the search trend from the this month as well as the friend recommendation result.
+![image](https://user-images.githubusercontent.com/59858652/149225184-5b1c707d-9039-4905-98ce-abd2ebbee3e4.png)
+
+In Profile page, user can customize their info and overview section will display the weather summary based on user's location
+![image](https://user-images.githubusercontent.com/59858652/149225200-4ffa2f6f-201f-4d77-a927-28b2156572fc.png)
+
+## Teamwork
+My responsibility was to take charge of front-end design, basic function design, indexing for advanced SQL, and the design of the recommendation system.
