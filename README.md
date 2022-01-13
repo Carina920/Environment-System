@@ -40,6 +40,7 @@ For registered users:
 
 ### Basic Functions of Web Application
 Search. Users will have the ability to search environmental data based on location and time.
+
 Log in. Users will have the ability to create their own accounts and user profile. 
 
 ### Creative Component
