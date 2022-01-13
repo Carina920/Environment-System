@@ -52,18 +52,23 @@ We decided to implement a stored procedure to help our recommendation engine as 
 
 ### Dataflow
 When user visits our website, it requires a login to continue.
+
 ![image](https://user-images.githubusercontent.com/59858652/149225075-0a77e478-67ae-4de9-b092-0b6c34f1310c.png)
 
-After user log in, the home page will display, which include the most recent weather event
+After user log in, the home page will display, which include the most recent weather event.
+
 ![image](https://user-images.githubusercontent.com/59858652/149225115-4512ea14-b991-454c-af09-5d53a7db7e0a.png)
 
 In the home page, user can search the weather event by selecting options from the dropdown or by type key words in "Vague Search" section.
+
 ![image](https://user-images.githubusercontent.com/59858652/149225150-0654af22-1230-431c-859b-749425c46a1a.png)
 
 In the search history page, user can delete any of the history by id. User can also see the search trend from the this month as well as the friend recommendation result.
+
 ![image](https://user-images.githubusercontent.com/59858652/149225184-5b1c707d-9039-4905-98ce-abd2ebbee3e4.png)
 
-In Profile page, user can customize their info and overview section will display the weather summary based on user's location
+In Profile page, user can customize their info and overview section will display the weather summary based on user's location.
+
 ![image](https://user-images.githubusercontent.com/59858652/149225200-4ffa2f6f-201f-4d77-a927-28b2156572fc.png)
 
 ## Teamwork
